@@ -391,7 +391,7 @@ footer{
 /* menu */
 .contenedor_menu{
     padding-top: 180px;
-    background-color: #f22727;
+    background-color: #ffffff;
     padding-bottom: 40px;
     
 }
@@ -407,7 +407,7 @@ footer{
  .carta__titulo{
     font-size: 30px;
     font-weight: 600;
-     color: rgb(255, 255, 255);
+     color: rgb(255, 0, 0);
      text-align: center;
      padding: 20px;
  }
