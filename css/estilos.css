@@ -9,7 +9,7 @@ body {
 }
 /* Logo */
 .cabecera{
-    background-color: #2448a9;
+    background-color: #232323;
     display: flex;
     justify-content: center;
     position: relative;
@@ -68,7 +68,7 @@ nav > a:hover{
 } 
 
 .titulo {
-    color: rgb(245, 3, 3);
+    color: rgb(255, 255, 255);
     font-size: 30px;
     text-align: center;
     margin-bottom: 60px;
@@ -91,9 +91,9 @@ nav > a:hover{
 
 .fondo .textos-fondo{
     display: flex;
-    height: 430px;
+    height: 25em;
     width: 100%;
-    padding-top: 400px;
+    padding-top: 25em;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -121,25 +121,25 @@ nav > a:hover{
 }
 
 .textos-fondo h2{
-    font-size: 20px;
+    font-size: 1.5em;
     font-weight: 600;
-    padding: 10px;
+    padding: 10px 20px;
     color:rgb(255, 255, 255);
-    background-color: #2448a9;
-    opacity: .2;
+   background-color: #232323; 
+   border-radius: .4em;
+   opacity: .2;
 }
 
 .wave{
     position: absolute;
-    bottom: 0%;
+    bottom: 0;
     width: 100%;
 }
 .wave3{
     position: absolute;
     bottom: 0%;
     width: 100%;
-    
-    
+   
 }
 
 
@@ -188,13 +188,13 @@ nav > a:hover{
 /* Galeria */
 
 .galeria{
-    background: #f22727;
+    background:rgb(245, 3, 3);
     padding-bottom: 240px;
     position: relative;
 }
 
 .titulo_galeria {
-    color: rgb(255, 255, 255);
+    color: rgb(245, 3, 3);
     font-size: 30px;
     text-align: center;
     margin-bottom: 15px;
@@ -265,7 +265,7 @@ nav > a:hover{
 }
 
 .cards .card{
-    background:  #2448a9;
+    background:  #232323;
     display: flex;
     width: 46%;
     height: 200px;
@@ -299,7 +299,7 @@ nav > a:hover{
 
 /* footer */
 footer{
-    background: #2448a9;
+    background: #232323;
     padding: 60px 0 30px 0;
     margin: auto;
     overflow: hidden;
@@ -391,7 +391,7 @@ footer{
 /* menu */
 .contenedor_menu{
     padding-top: 180px;
-    background-color: #f22727;
+    background-color: white;
     padding-bottom: 40px;
     
 }
@@ -407,7 +407,7 @@ footer{
  .carta__titulo{
     font-size: 30px;
     font-weight: 600;
-     color: rgb(255, 255, 255);
+     color: #f22727;
      text-align: center;
      padding: 20px;
  }
@@ -415,6 +415,7 @@ footer{
     width: 50%;
     margin: 10px;
     box-shadow: 0 0 6px 0 #232323;
+    border-radius: 1em;
     
     
 }
@@ -422,12 +423,13 @@ footer{
 .contenedor_nosotros{
     display: flex;
     justify-content:  center;
-    padding-top: 200px;
+    padding-top: 6em;
     padding-bottom: 50px;
     align-items: center;
  }
 
  .contenedor_nosotros img{
+     border-radius: 1em;
     box-shadow: 0 0 6px 0 #232323; 
     width: 90%;
  }
@@ -457,7 +459,7 @@ footer{
     }
 
     /* Clientes */
-
+   
     .cards{
         flex-direction: column;
         justify-content: center;
